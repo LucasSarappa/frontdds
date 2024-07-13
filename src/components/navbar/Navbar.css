@@ -1,0 +1,99 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center; /* Ajusta esto a 'flex-start', 'flex-end', 'space-between', 'space-around', según necesites */
+    align-items: center;
+    background-color: transparent;
+    z-index: 1000; /* Asegura que el navbar se muestre por encima de otros elementos */
+
+}
+
+/*Botones del NavBar*/
+
+.boton-navbar-estilo-comun {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px; /* Tamaño del texto */
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boton-navbar-estilo-comun:active {
+    transform: scale(0.95); /* Reduce el tamaño del botón al 95% */
+    transition: transform 0.1s ease; /* Suaviza la transición */
+}
+
+
+.inicio-btn {
+    position: relative;
+    top: 10px; /* Ajusta según necesidad */
+    left: 200px; /* Ajusta según necesidad */
+}
+
+.nosotros-btn {
+    position: relative;
+    top: 10px; /* Ajusta según necesidad */
+    left: 240px; /* Ajusta según necesidad */
+}
+
+.faqs-btn{
+    position: relative;
+    top: 10px; /* Ajusta según necesidad */
+    left: 280px; /* Ajusta según necesidad */
+}
+
+.noticias-btn{
+    position: relative;
+    top: 10px; /* Ajusta según necesidad */
+    left: 320px; /* Ajusta según necesidad */
+}
+
+.mapa-btn{
+    position: relative;
+    top: 10px; /* Ajusta según necesidad */
+    left: 360px; /* Ajusta según necesidad */
+}
+
+/*Boton LogIn*/
+
+.boton-login-estilo{
+    width: 220px;
+    height: 60px;
+    background-color: #ffffff; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 21px; /* Tamaño del texto */
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002b59;
+}
+
+.boton-login-estilo:active {
+    transform: scale(0.95); /* Reduce el tamaño del botón al 95% */
+    transition: transform 0.1s ease; /* Suaviza la transición */
+}
+
+
+.login-btn{
+    position: relative;
+    top: 10px; /* Ajusta según necesidad */
+    left: 560px; /* Ajusta según necesidad */
+    width: 150px;
+    height: 40px;
+    background-color: white;
+}
+
+
+
+
+

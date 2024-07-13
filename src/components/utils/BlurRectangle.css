@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Asegurar que no haya desbordamiento */
+}
+
+.container {
+    width: 100vw; /* Ancho del viewport total pantalla*/
+    height: 100vh; /* Altura del viewport total pantalla*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-section {
+    background-color: #002b59;
+    flex: 4;
+    position: relative;
+}
+
+.white-section {
+    background-color: snow;
+    flex: 1;
+    position: relative;
+}
+
+
+.blur-rectangle {
+    width: 300px;
+    height: 200px;
+    background-color: #5FD58B; /* Color de fondo verde */
+    filter: blur(80px); /* Aplicar el efecto de difuminado */
+    border-radius: 100px; /* Bordes redondeados */
+    position: absolute;
+}
+
+/*
+.top-left {
+    top: 30px;
+    left: -30px;
+    transform: rotate(-50deg);
+}
+*/
+
+.bottom-right {
+    bottom: 30px;
+    right: -30px;
+    transform: rotate(150deg);
+}
+
+
+/*
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.circle.top-left {
+    top: 60px;
+    left: 100px;
+}
+
+
+.circle.bottom-right {
+    bottom: 60px;
+    right: 100px;
+}
+
+*/
+
+.imagen-principal {
+    position: absolute;
+    left: 840px;
+    top: 120px;
+    width: 900px;
+    height: 600px;
+}
+
+.imagen-logo-esquina {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 200px;
+    height: 150px;
+}
+
+/*button*/
+.boton-estilo-comun {
+    width: 220px;
+    height: 60px;
+    background-color: #ffffff; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 21px; /* Tamaño del texto */
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002b59;
+
+}
+
+.boton-estilo-comun:active {
+    transform: scale(0.95); /* Reduce el tamaño del botón al 95% */
+    transition: transform 0.1s ease; /* Suaviza la transición */
+}
+
+
+.colaborar-btn {
+    position: absolute;
+    top: -190px; /* Ajusta según necesidad */
+    left: 220px; /* Ajusta según necesidad */
+}
+
+.solicitar-btn {
+    position: absolute;
+    top: -190px; /* Ajusta según necesidad */
+    left: 520px; /* Ajusta según necesidad */
+}
+
+
+
+
+
+
+
+
